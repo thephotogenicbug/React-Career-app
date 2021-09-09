@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import CareerLogoImg from '../assets/Logo.png'
 
@@ -26,7 +27,7 @@ const LogoText = styled.h2`
 
 export function Logo(props){
    return <LogoWrapper>
-        <LogoImg><img src={CareerLogoImg} alt="Career.io Logo"/></LogoImg>
+        <LogoImg><Link to='/'><img src={CareerLogoImg} alt="Career.io Logo"/></Link></LogoImg>
         <LogoText></LogoText>
    </LogoWrapper>
 }

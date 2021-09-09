@@ -31,7 +31,6 @@ const LinkItem = styled.li`
   font-weight: 500;
   font-size: 16px;
   display: flex;
-
   margin-bottom: 10px;
 `;
 
@@ -54,13 +53,10 @@ export function MobileNavLinks(props) {
       {isOpen && (
         <LinksWrapper>
           <LinkItem>
-          <Link href="#">Introduction</Link>
+          <Link href="/profile">Profile</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Profile</Link>
-        </LinkItem>
-        <LinkItem>
-          <Link href="#">Application Form</Link>
+          <Link href="/application">Application Form</Link>
         </LinkItem>
           <Marginer />
           <Accessibility />

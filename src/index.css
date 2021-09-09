@@ -74,6 +74,11 @@ a.bt2{
   height: 400px;
   border-radius: 8px !important;
 }
+.card-outer-layout-login{
+  height: 300px;
+  position: absolute;
+  border-radius: 8px !important;
+}
 
 .card-layout{
   height: 530px;
@@ -83,40 +88,50 @@ a.bt2{
   border-radius: 10px !important;
   
 }
+.card-layout-login{
+  height: 430px;
+  width: 500px;
+  margin-top: -130px;
+  margin-left: 50px !important;
+  border-radius: 10px !important;
+  
+}
 
 
 .signup-heroimg{
-  margin-top: 40px;
-  margin-left: 75px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .login-heroimg{
-  margin-left: 100px;
-   margin-top: 80px;
+  margin-left: 10px;
+   margin-top: -10px;
 }
 
 .login-heroimg img{
-   height:300px;
-   width:300px;
+   height:400px;
+   width:400px;
 }
 
 .signup-heroimg img{
   height: 400px;
+  margin-top: 20px;
 
 }
 
 .card-layout-body{
-  background-color: #6aa4c4;
   border-radius: 5px !important;
 }
 
 .card-layout-body-login{
-  background-color: #F2B81A;
   border-radius: 5px !important;
 }
 
 .row-margin{
   margin-top: 30px !important;
+}
+.row-margin-login{
+  margin-top: 20px !important;
 }
 
 .bt-login{
@@ -142,7 +157,10 @@ a.bt-login{
 .bt:hover{
   background: #F2B81A;
 }
-
+.card-border{
+  border-radius: 15px !important;
+  box-shadow: 1px 2px 10px #F2B81A;
+}
 @media only screen and (max-width:768px) { 
   .bt {
     width: 100%;
@@ -163,7 +181,12 @@ a.bt-login{
 }
 
 
-
+.profile-card{
+  border-radius: 10px !important;
+  box-shadow: 1px 3px 10px #6aa4c4;
+  background-color: #6aa4c4 !important;
+  color:#fff
+}
 @media screen and (min-width:1px) and (max-width:768px){
 
   .hero{

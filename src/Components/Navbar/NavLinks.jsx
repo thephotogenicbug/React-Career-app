@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 const NavLinksContainer = styled.div`
   height: 100%;
   display: flex;
@@ -42,13 +41,10 @@ export function NavLinks(props) {
     <NavLinksContainer>
       <LinksWrapper>
         <LinkItem>
-          <Link href="#">Introduction</Link>
+          <Link href="/profile">Profile</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Profile</Link>
-        </LinkItem>
-        <LinkItem>
-          <Link href="#">Application Form</Link>
+          <Link href="/application">Application Form</Link>
         </LinkItem>
       </LinksWrapper>
     </NavLinksContainer>

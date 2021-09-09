@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import HeroImage from '../assets/Frame-35.png'
+import HeroImage from '../assets/Signup.png'
 const Signup = () =>{
 
 
